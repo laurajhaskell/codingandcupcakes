@@ -5,15 +5,10 @@
     <title>Debbie's Cupcakes</title>
     <style type="text/css"></style>
     <link rel="stylesheet" href="mystyles.css" />
-    <link rel="stylesheet" href="style.css" />
     <link
       href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic"
       rel="stylesheet"
       type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap"
-      rel="stylesheet"
     />
   </head>
   <body>
@@ -23,34 +18,35 @@
           <a href="index.html"><img src="img/logo.png" alt=""/></a>
         </div>
         <ul class="menu">
-          <li><a class="selected" href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="shop.html">Shop</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a class="selected" href="contact.html">Contact</a></li>
         </ul>
       </div>
     </div>
     <div class="content">
       <div class="inner">
         <h1>Debbie's Cupcakes</h1>
-        <h2>Cupcakes are Yummy!</h2>
-        <p>
-          Try our delicious cupcakes. They may be personalized with your
-          favorite animals or activies.
-        </p>
-        <ul class="inline">
-          <li><img src="img/cupcakes/cupcake7.jpg" alt="cupcakes" /></li>
-          <li><img src="img/cupcakes/carrot.jpg" alt="carrotcupcake" /></li>
-          <li>
-            <img src="img/cupcakes/cupcake5.jpg" alt="multicupcakes" />
-          </li>
-        </ul>
+        <h2>Contact Information</h2>
+        <h2>Visit us at:</h2>
+        <p>258 Richard Rd</p>
+        <p>Kansas City, MO 64116</p>
+        <h2>Do you need help? Contact us!</h2>
 
-        <h3>Dream up your favorite cupcake flavors</h3>
-        <p>
-          Some flavor options include chocolate, red velvet, lemon, strawberry,
-          vanilla, carrot, peanut butter, oreo, or suggest your favorite. We can
-          make it.
-        </p>
+        <form
+          action="mailto:debbiescakes@example.com"
+          method="post"
+          enctype="text/plain"
+        >
+          Name:<br />
+          <input type="text" name="name" /><br />
+          E-mail:<br />
+          <input type="text" name="mail" /><br />
+          Comment:<br />
+          <input type="text" name="comment" size="50" /><br /><br />
+          <input type="submit" value="Send" />
+          <input type="reset" value="Reset" />
+        </form>
       </div>
     </div>
     <div class="footer">

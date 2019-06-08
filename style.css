@@ -1,0 +1,13 @@
+html,
+body {
+  background: lightblue;
+  font-family: "Dancing Script", cursive;
+}
+
+.header {
+  background: blue;
+}
+
+.footer .inner {
+  background: purple;
+}
